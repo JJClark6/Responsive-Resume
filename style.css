@@ -1,0 +1,127 @@
+
+:root {
+    --ff-sans: 'Poppins', sans-serif;
+
+    --fw-light: 200;
+    --fw-normal: 400;
+    --fw-bold: 600;
+
+    --fs-400: 0.9375rem;
+    --fs-500: 1.25rem;
+    --fs-600: 1.5rem;
+    --fs-900: 2.5rem;
+
+    --clr-green: hsl(139, 63%, 44%); 
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--ff-sans);
+}
+
+.head h1{
+    WIDTH: 90%;
+    border-top: 7px solid var(--clr-green);
+    font-size: var(--fs-900);
+    font-weight: var(--fw-normal);
+    line-height: 2rem;
+    margin-bottom: 0;
+    padding-top: 2rem;
+    padding-bottom: 0;
+    cursor: pointer;
+    animation: all 0.3s ease;
+}
+
+.head h1:hover {
+    color: var(--clr-green);
+}
+
+.h2 {
+    font-size: var(--fs-600);
+    font-weight: var(--fw-normal);    
+    color: var(--clr-green);
+    padding-top: .5rem;
+    cursor: pointer;
+    animation: all 0.3s ease;
+}
+
+.h2:hover {
+    color: black;
+}
+
+.head .personal {
+    line-height: 1.25rem;
+    cursor: pointer;
+    animation: all 0.3s ease;
+}
+
+.head .personal:hover {
+    color: grey;
+}
+
+section .wrapper {
+    width: 90%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+section .h2_section {
+    font-size: var(--fs-600);
+    font-weight: var(--fw-normal);    
+    color: var(--clr-green);
+    padding-top: .5rem;
+    font-weight: var(--fw-bold);
+    animation: all 0.3s ease;
+    cursor: pointer;
+}
+
+section .h2_section:hover {
+    color: black;
+}
+
+.section p {
+    font-size: var(--fs-400);
+}
+
+p .bold {
+    font-weight: var(--fw-bold);
+    cursor: pointer;
+    animation: all 0.3s ease;
+}
+
+p .bold:hover {
+    color: var(--clr-green);
+}
+
+p .italic {
+    font-style: italic;
+    color: grey;
+    animation: all 0.3s ease;
+    cursor: pointer;
+}
+
+p .italic:hover {
+    color: black;
+}
+
+p .time {
+    color: grey;
+    line-height: .5rem;
+    cursor: pointer;
+    animation: all 0.3s ease
+}
+
+p .time:hover {
+    color: black;
+}
+
+li {
+    cursor: pointer;
+    animation: all 0.3s ease;
+}
+
+li:hover {
+    color: grey;
+}
